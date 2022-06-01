@@ -1,0 +1,54 @@
+body {
+  background-color: lightslategray;
+}
+h1 {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+main {
+  border: 1px solid;
+  margin: 20px;
+  background-color: lightgrey;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 1rem;
+  max-height: 320px;
+  max-width: 280px;
+}
+.screen {
+  border: 1px solid;
+  height: 5rem;
+  margin: 5px;
+  background-color: #000;
+  color: whitesmoke;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  opacity: 0.9;
+}
+.controls-clean {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 10px;
+}
+.controls-clean > .btn {
+  background-color: #f0980d;
+}
+
+.controls-calc {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 5px 10px;
+}
+
+.btn {
+  margin: 2px;
+  box-shadow: 2px 2px 2px black;
+}
+
+label {
+  font-size: 0.6rem;
+  margin: 10px 20px;
+}
